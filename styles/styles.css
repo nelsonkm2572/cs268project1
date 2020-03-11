@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,53 +10,115 @@ body {
     align-items: stretch;
 }
 
-.thehead {
-    
+.the-head {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    background-color: crimson;
+    opacity: .8;
+}
+
+.main-head {
+    margin: 0;
+    padding: 10px;
+    font-size: 60px;
 }
 
 nav {
     margin: 0;
-    flex: 1;
-    border-bottom: 1px solid black;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    border: 2px 0px 2px 0px solid black;
+    background-color: black;
 }
 
 .navlist {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.5px;
 }
 
 .navlist li {
-    margin: 0;   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: stretch;
 }
 
 .navlist a {
     margin: 0;
+    padding: 10px;
     text-decoration: none;
-    border: 1px solid black;
-    padding: 5px;
+    border-left: 1px solid crimson;
+    color: white;
+    opacity: 1;
 }
 
-.thecontent {
-    flex-grow: 1;
+.navlist a:hover {
+    opacity: .8;
+    color: crimson;
+}
+
+.the-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    align-self: flex-start;
+    padding: 0;
+    margin: 45px 0 0 10px;
+    background-color: black;
+    color: white;
+    opacity: .8;
+}
+
+.the-content p {
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 10px;
+}
+
+.the-content a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.the-content a:hover {
+   opacity: .5;
+}
+
+.the-footer {
+    margin-top: 45px;
+    padding: 0;
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    justify-content: space-between;
+    background-color: crimson;
+    opacity: .8;
 }
 
-.leftcontent, .rightcontent {
-    flex-shrink: 0;
-    flex-basis: 200px;
-    background-color: burlywood;
+.the-footer p {
+    margin-left: 10px;
 }
 
-.middlecontent {
-    flex-grow: 1;
-    flex-basis: 400px;
-    background-color: aqua;
-}
-
-.thefooter {
-
+.prairie-body {
+    background: url("../images/prairieBurn.jpg") no-repeat;
+    background-size: cover;
 }
