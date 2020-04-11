@@ -1,8 +1,20 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+head {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    box-sizing: border-box;
 }
 
 .the-head {
@@ -39,7 +51,6 @@ nav {
     flex-direction: row;
     justify-content: flex-start;
     list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 17.5px;
 }
 
@@ -83,20 +94,10 @@ nav {
 
 .the-content p {
     opacity: 1;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
     margin: 0;
     padding: 10px;
-}
-
-.the-content div {
-    padding: 10px;
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
 }
 
 .the-content a {
@@ -108,14 +109,69 @@ nav {
    opacity: .5;
 }
 
+.resume-list {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.resume-list li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .resume-heading {
+    font-size: 20px;
     margin: 0;
     padding: 0;
 }
 
-.resume-content {
+.resume-heading-dot {
+    font-size: 20px;
+    margin-left: 10px;
+    color: crimson;
+    visibility: hidden;
+}
+
+.resume-heading:hover {
+    cursor: pointer;
+    color: crimson;
+}
+
+.resume-content-holder {
     margin: 0;
     padding: 0;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.resume-content {
+    margin: 0;
+    padding: 10px;
+    display: none;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.resume-content h1 {
+    font-size: 20px;
+}
+
+.resume-content p {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 17.5px;
 }
 
 .the-footer {
@@ -126,33 +182,9 @@ nav {
     justify-content: space-between;
     background-color: crimson;
     opacity: .8;
+    flex-grow: 1;
 }
 
 .the-footer p {
     margin-left: 10px;
-}
-
-.home-body {
-    background: url("../images/prairieBurn.jpg") no-repeat;
-    background-size: cover;
-}
-
-.ais-body {
-    background: url("../images/ais.jpg") no-repeat;
-    background-size: cover;
-}
-
-.prairie-body {
-    background: url("../images/prairieBurn.jpg") no-repeat;
-    background-size: cover;
-}
-
-.save-the-bees-body {
-    background: url("../images/beeCity.jpg") no-repeat;
-    background-size: cover;
-}
-
-.resume-body {
-    background: url("../images/prairieBurn.jpg") no-repeat;
-    background-size: cover;
 }
