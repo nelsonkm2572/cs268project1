@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>Resume</title>
+        <link rel="shortcut icon" type="image/png" href="images/bee.png"/>
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <script type="text/javascript" src="js/background.js"></script>
-        <script type="text/javascript" src="js/resume.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/stylesresume.css">
+        <script src="js/background.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/resume.js"></script>
     </head>
     <body>
         <header class="the-head">
-            <h1 class="main-head">Kalle Johnson</h1>
-            <h1 class="main-head">Resume</h1>
+            <div class="main-head">
+                <h1 class="main-head-item">Kalle Johnson</h1>
+                <h1 class="main-head-item">Resume</h1>
+            </div>
+            <img class="menuButton" src="images/menu.png" alt="Menu Button">
             <nav>
                 <ul class="navlist">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="aiswork.html">AIS WORK</a></li>
                     <li><a href="prairieburn.html">PRAIRIE BURN</a></li>
-                    <li><a href="savethebees.html">SAVE THE BEES</a></li>
+                    <li><a href="savethebees.html">SAVING BEES</a></li>
                     <li><a href="resume.html">RESUME</a></li>
                 </ul>
             </nav>
         </header>
         <div class="the-content">
+            <h1>Resume</h1>
             <ul class="resume-list">
-                <li><h2 class="resume-heading">SKILLS AND ABILITIES</h2><span class="resume-heading-dot">O</span></li>
-                <li><h2 class="resume-heading">FIELD COURSES</h2><span class="resume-heading-dot">O</span></li>
-                <li><h2 class="resume-heading">EXPERIENCE</h2><span class="resume-heading-dot">O</span></li>
-                <li><h2 class="resume-heading">EDUCATION</h2><span class="resume-heading-dot">O</span></li>
-                <li><h2 class="resume-heading">REFERENCES</h2><span class="resume-heading-dot">O</span></li>
+                <li><h2 class="resume-heading">SKILLS AND ABILITIES</h2><img class="resume-heading-dot" src="images/arrow.png" alt="Section Pointer"></li>
+                <li><h2 class="resume-heading">FIELD COURSES</h2><img class="resume-heading-dot" src="images/arrow.png" alt="Section Pointer"></li>
+                <li><h2 class="resume-heading">EXPERIENCE</h2><img class="resume-heading-dot" src="images/arrow.png" alt="Section Pointer"></li>
+                <li><h2 class="resume-heading">EDUCATION</h2><img class="resume-heading-dot" src="images/arrow.png" alt="Section Pointer"></li>
+                <li><h2 class="resume-heading">REFERENCES</h2><img class="resume-heading-dot" src="images/arrow.png" alt="Section Pointer"></li>
             </ul>
             <div class="resume-content-holder">
                 <div class="resume-content" id="content0">
@@ -39,28 +47,28 @@
                     </p>
                 </div>
                 <div class="resume-content" id="content1">
-                    <p>Biology - Wisconsin Wildlife: Identification of animals native/natural in Wisconsin</p>
+                    <p><span>Biology - Wisconsin Wildlife:</span> Identification of animals native/natural in Wisconsin</p>
                     <p>
-                        Biology - Entomology: Identification of insects, their internal organs and external body parts, 
+                        <span>Biology - Entomology:</span> Identification of insects, their internal organs and external body parts, 
                         pest management
                     </p>
                     <p>
-                        Biology - Conservation: Conservation management, laws, and implementation of 
+                        <span>Biology - Conservation:</span> Conservation management, laws, and implementation of 
                         knowledge for public outreach, restoration, Fire management (participated in a controlled burn)
                     </p>
                     <p>
-                        Biology - Field Ichthyology: Shocking streams, mis netting, Fish in Wisconsin Identification, 
+                        <span>Biology - Field Ichthyology:</span> Shocking streams, mis netting, Fish in Wisconsin Identification, 
                         stream management 
                     </p>
-                    <p>Biology - Advanced Ornithology: Bird Identification, using field guides, bird banding</p>
+                    <p><span>Biology - Advanced Ornithology:</span> Bird Identification, using field guides, bird banding</p>
                     <p>
-                        Biology - Vegetation Ecology: Plant Identification, statistical analysis, presentation skills, 
+                        <span>Biology - Vegetation Ecology:</span> Plant Identification, statistical analysis, presentation skills, 
                         restoration
                     </p>
-                    <p>Biology - Statistics: statistical analysis, R, excel, graphing</p>
-                    <p>Various other biology courses working on case studies and running experiments</p>
-                    <p>GIS I&II: ArcMaps, ArcGIS, QGIS</p>
+                    <p><span>Biology - Statistics:</span> statistical analysis, R, excel, graphing</p>
+                    <p><span>GIS I&II:</span> ArcMaps, ArcGIS, QGIS</p>
                     <p>Physical Geography, Environmental Geography and other geography and geology related courses</p>
+                    <p>Various other biology courses working on case studies and running experiments</p>
                 </div>
                 <div class="resume-content" id="content2">
                     <h1>WATERCRAFT INSPECTOR - CLEAN BOATS CLEAN WATERS</h1>
@@ -117,8 +125,9 @@
                 </div>
             </div>
         </div>
+        <footer class="the-footer">
+            <p>&copy; Kyle Nelson</p>
+            <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"> www.flaticon.com</a></p>
+        </footer>
     </body>
-    <footer class="the-footer">
-        <p>&copy Kyle Nelson</p>
-    </footer>
 </html>

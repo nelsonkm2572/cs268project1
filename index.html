@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>Home</title>
+        <link rel="shortcut icon" type="image/png" href="images/bee.png"/>
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <script type="text/javascript" src="js/background.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/styleindex.css">
+        <script src="js/background.js"></script>
+        <script src="js/menu.js"></script>
     </head>
     <body>
         <header class="the-head">
-            <h1 class="main-head">Kalle Johnson</h1>
-            <h1 class="main-head">Home</h1>
+            <div class="main-head">
+            <h1 class="main-head-item">Kalle Johnson</h1>
+            <h1 class="main-head-item">Home</h1>
+            </div>
+            <img class="menuButton" src="images/menu.png" alt="Menu Button">
             <nav>
                 <ul class="navlist">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="aiswork.html">AIS WORK</a></li>
                     <li><a href="prairieburn.html">PRAIRIE BURN</a></li>
-                    <li><a href="savethebees.html">SAVE THE BEES</a></li>
+                    <li><a href="savethebees.html">SAVING BEES</a></li>
                     <li><a href="resume.html">RESUME</a></li>
                 </ul>
             </nav>
         </header>
         <div class="the-content">
-            
+            <h1>About Me</h1>
+            <p>
+                I graduated from the University of Wisconsin Eau Claire in December 2019 with a comprehensive major in 
+                Environmental and Ecology Biology. Through my course work and internships, I have developed a unique 
+                combination of experiences that can benefit me and any position I fill. From water quality to prairie burns, 
+                I have experience in various biological terrains. My GIS experience has allowed me to bring that technique 
+                to my work and has benefited my overall performance. Here, I have highlighted some of my experience and work 
+                in biology.
+            </p>
+            <div class="form-content">
+                <h2>Contact Me:</h2>
+                <form action="mailto:kalle.johnson4@gmail.com" method="POST" enctype="text/plain" name="contact-form">
+                    <input id="submit" type="submit" value="email">
+                </form>
+            </div>
         </div>
+        <footer class="the-footer">
+            <p>&copy; Kyle Nelson</p>
+            <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"> www.flaticon.com</a></p>
+        </footer>
     </body>
-    <footer class="the-footer">
-        <p>&copy Kyle Nelson</p>
-    </footer>
 </html>

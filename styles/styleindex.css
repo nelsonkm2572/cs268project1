@@ -1,0 +1,39 @@
+.form-content {
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.form-content h2 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.form-content form {
+    margin-left: 10px;
+    padding: 0;
+}
+
+.form-content form input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: Lucida Grande, Helvetica Neue, serif;
+    height: 25px;
+}
+
+@media (min-width: 761px) {
+    .form-content form input:hover {
+        cursor: pointer;
+        color: crimson;
+        opacity: .8;
+    }
+}

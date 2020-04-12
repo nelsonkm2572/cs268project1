@@ -1,0 +1,78 @@
+.report-content {
+    padding: 10px;
+}
+
+.report-content p {
+    margin-bottom: 10px;
+    padding: 0;
+    letter-spacing: 2px;
+    font-size: 17.5px;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+th {
+    font-family: Lucida Grande, Helvetica Neue, serif;
+    font-size: 17.5px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.report-list {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.report-list li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.report-heading {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.report-heading-dot {
+    height: 20px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+
+.report-content {
+    margin: 0;
+    padding: 10px;
+    display: none;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+@media (min-width: 761px) {
+    .report-heading:hover {
+        cursor: pointer;
+        color: crimson;
+    }
+}

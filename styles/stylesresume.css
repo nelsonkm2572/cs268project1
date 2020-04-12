@@ -1,0 +1,58 @@
+.resume-list {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.resume-list li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resume-heading {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-heading-dot {
+    margin-left: 10px;
+    visibility: hidden;
+    height: 20px;
+}
+
+.resume-content-holder {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.resume-content {
+    margin: 0;
+    padding: 10px;
+    display: none;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.resume-content h1 {
+    font-size: 20px;
+}
+
+.resume-content p {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 17.5px;
+}

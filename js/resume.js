@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     listDot[0].style.cssText = 'visibility: visible;';
     resumeContent[0].style.cssText = 'display: flex;';
-
     for (let i=0; i < listDot.length; i++) {
         listItems[i].addEventListener('click', function () {
             for(let i=0; i < listDot.length; i++) {
