@@ -165,6 +165,10 @@ nav {
         opacity: 1;
     }
 
+    .main-head-item {
+        font-size: 22.5px;
+    }
+
     nav {
         z-index: 1;
         display: none;
@@ -194,6 +198,10 @@ nav {
     .navlist a:hover {
         opacity: .8;
         color: crimson;
+    }
+
+    .the-footer {
+        font-size: 10px;
     }
 
 }
